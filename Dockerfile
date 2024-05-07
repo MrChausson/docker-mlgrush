@@ -1,5 +1,5 @@
 # Use a base image with Java installed
-FROM openjdk:21-slim-bullseye
+FROM eclipse-temurin:21.0.2_13-jre-jammy
 
 # install unzip dependency
 RUN apt-get update && apt-get install -y unzip
